@@ -87,7 +87,6 @@ class ProductServiceApplicationTests {
         Assertions.assertEquals(BigDecimal.valueOf(1.75), productRepository.findAll().get(0).getPrice());
     }
 
-    // Helpers
     private ProductRequest getProductRequest() {
         return ProductRequest
                 .builder()
